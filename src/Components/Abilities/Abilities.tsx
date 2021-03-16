@@ -4,7 +4,6 @@ import CardContent from '@material-ui/core/CardContent';
 import {Ability} from '../../models/ability';
 
 export const Abilities = (props: {abilities: Ability[]}) => {
-    const a: number = props.abilities[0].name;
     return (
         <Card>
             <CardContent>
